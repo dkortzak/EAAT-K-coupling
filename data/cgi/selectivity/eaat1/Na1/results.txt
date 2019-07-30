@@ -1,0 +1,47 @@
+# analyze_crooks.py, pmx version = 1.1.0dev
+# pwd = /home/daniel/MD/git/data/cgi/selectivity/eaat1/Na1
+# Tue Jun 25 16:07:32 2019 (daniel)
+# command = /home/daniel/PyScripts/pmx/scripts/analyze_dhdl.py -iA integ0.dat -iB integ1.dat -b 10
+
+
+ ========================================================
+                       ANALYSIS
+ ========================================================
+  Number of forward (0->1) trajectories: 117
+  Number of reverse (1->0) trajectories: 117
+  Temperature : 298.15 K
+
+ --------------------------------------------------------
+             Crooks Gaussian Intersection     
+ --------------------------------------------------------
+  CGI: Forward Gauss mean =    12.74 kJ/mol std =     2.14 kJ/mol
+  CGI: Reverse Gauss mean =    12.32 kJ/mol std =     2.90 kJ/mol
+
+  Gaussians too close for intersection calculation
+   --> Taking difference of mean values
+  CGI: dG =    12.53 kJ/mol
+  CGI: Std Err (bootstrap:parametric) =     0.17 kJ/mol
+  CGI: Std Err (bootstrap) =     0.19 kJ/mol
+    Forward: gaussian quality = 0.03
+             ---> KS-Test Failed. sqrt(N)*Dmax = 0.03, lambda0 = 1.44
+    Reverse: gaussian quality = 0.00
+             ---> KS-Test Failed. sqrt(N)*Dmax = 0.00, lambda0 = 2.10
+
+ --------------------------------------------------------
+             Bennett Acceptance Ratio     
+ --------------------------------------------------------
+  BAR: dG =    12.37 kJ/mol
+  BAR: Std Err (analytical) =     0.14 kJ/mol
+  BAR: Std Err (bootstrap)  =     0.11 kJ/mol
+  BAR: Conv =    -0.12
+  BAR: Conv Std Err (bootstrap) =     0.02
+
+ --------------------------------------------------------
+             Jarzynski estimator     
+ --------------------------------------------------------
+  JARZ: dG Forward =    12.03 kJ/mol
+  JARZ: dG Reverse =    14.95 kJ/mol
+  JARZ: dG Mean    =    13.49 kJ/mol
+  JARZ: Std Err Forward (bootstrap) =     0.12 kJ/mol
+  JARZ: Std Err Reverse (bootstrap) =     0.50 kJ/mol
+ ========================================================
