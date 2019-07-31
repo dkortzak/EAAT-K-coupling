@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import MDAnalysis as mda
 import numpy as np
-
+import MDAnalysis.analysis.distances as mdad
 def get_distances3():
     sitepos=np.asarray([K1site.center_of_mass(),K2site.center_of_mass(),K3site.center_of_mass(),K4site.center_of_mass()],dtype="float32")
 
