@@ -68,14 +68,14 @@ for j in range(1,2):
     
     traj="run"+str(j)+"/trj_fit_M"+str(k)+".xtc"
     pdb="chM.pdb"
-    uni = mda.Universe(pdb,traj) 
+    uni = mda.Universe(pdb,traj,topology_format="XPDB") 
     out=open("data/freeMD_GLTPH_OFC/run"+str(j)+"/states_"+chain+".xvg","w")
     
     #select ligating oxygens for each site
-    K1sel="segid M and ((resid 10306 and name O) or\
-    (resid 10310 and (name O or name OD1)) or (resid 10312 and (name OD1 or name OD2)) or (resid 10401 and name O) or (resid 10405 and (name OD1 or name OD2)))"
-    K2sel="segid M and ((resid 10308 and name O) or (resid 10349 and name O) or (resid 10350 and name O) or (resid 10352 and name O))"
-    K3sel="segid M and ((resid 10276 and name O) or (resid 10394 and (name OD1 or name OD2)) or (resid 10398 and name OG1) or (resid 10355 and name O))"
+    K1sel="segid M and ((resid 306 and name O) or\
+    (resid 310 and (name O or name OD1)) or (resid 312 and (name OD1 or name OD2)) or (resid 401 and name O) or (resid 405 and (name OD1 or name OD2)))"
+    K2sel="segid M and ((resid 308 and name O) or (resid 349 and name O) or (resid 350 and name O) or (resid 352 and name O))"
+    K3sel="segid M and ((resid 276 and name O) or (resid 394 and (name OD1 or name OD2)) or (resid 398 and name OG1) or (resid 355 and name O))"
     
     Kions=uni.selectAtoms("name K")
     K1site=uni.select_atoms(K1sel)
