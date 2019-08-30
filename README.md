@@ -1,5 +1,5 @@
-# Principles of K<sup>+</sup> coupling in the glutamate transporter family
-Datasets and python scripts accompanying the paper *Principles of K<sup>+</sup> coupling in the glutamate transporter family* by Kortzak et al.
+# Allosteric gate modulation confers K<sup>+</sup>  coupling in glutamate transporters
+Datasets and python scripts accompanying the paper *Allosteric gate modulation confers K<sup>+</sup>  coupling in glutamate transporters* by Kortzak et al.
 
 ### analysis scripts
   * [transition_path_eaat.py](../master/transition_path_eaat.py) reads discretized K<sup>+</sup> occupation state trajectories and calculates highest reactive flux pathways for EAAT1 (used in Fig. 2C). Depends on the [MSMexplorer](https://github.com/msmbuilder/msmexplorer) package. 
