@@ -30,11 +30,16 @@ contains work values from alchemical transformations of a bound ion for each bin
 ### citation
 If you make use of this data, please cite it.
 ```
-@article{kortzak2019,
-  title={Principles of K+ coupling in the glutamate transporter family},
-  author={Daniel Kortzak, Claudia Alleva, Ingo Weyand, David Ewers, Meike I. Zimmermann, Arne Franzen, Jan-Philipp Machtens and Christoph Fahlke},
-  journal={...},
-  pages={...},
-  year={...},
-  publisher={...}
+@article{doi:10.15252/embj.2019101468,
+author = {Kortzak, Daniel and Alleva, Claudia and Weyand, Ingo and Ewers, David and Zimmermann, Meike I and Franzen, Arne and Machtens, Jan-Philipp and Fahlke, Christoph},
+title = {Allosteric gate modulation confers K+ coupling in glutamate transporters},
+journal = {The EMBO Journal},
+volume = {0},
+number = {0},
+pages = {e101468},
+keywords = {allosteric coupling, excitatory amino acid transporters, K+ binding, secondary active transport, transport stoichiometry},
+doi = {10.15252/embj.2019101468},
+url = {https://www.embopress.org/doi/abs/10.15252/embj.2019101468},
+eprint = {https://www.embopress.org/doi/pdf/10.15252/embj.2019101468},
+abstract = {Abstract Excitatory amino acid transporters (EAATs) mediate glial and neuronal glutamate uptake to terminate synaptic transmission and to ensure low resting glutamate concentrations. Effective glutamate uptake is achieved by cotransport with 3 Na+ and 1 H+, in exchange with 1 K+. The underlying principles of this complex transport stoichiometry remain poorly understood. We use molecular dynamics simulations and electrophysiological experiments to elucidate how mammalian EAATs harness K+ gradients, unlike their K+-independent prokaryotic homologues. Glutamate transport is achieved via elevator-like translocation of the transport domain. In EAATs, glutamate-free re-translocation is prevented by an external gate remaining open until K+ binding closes and locks the gate. Prokaryotic GltPh contains the same K+-binding site, but the gate can close without K+. Our study provides a comprehensive description of K+-dependent glutamate transport and reveals a hitherto unknown allosteric coupling mechanism that permits adaptions of the transport stoichiometry without affecting ion or substrate binding.}
 }
