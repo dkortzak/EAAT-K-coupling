@@ -1,5 +1,5 @@
 # Allosteric gate modulation confers K<sup>+</sup>  coupling in glutamate transporters
-Datasets and python scripts accompanying the paper *Allosteric gate modulation confers K<sup>+</sup>  coupling in glutamate transporters* by Kortzak et al.
+Datasets and python scripts accompanying the paper [*Allosteric gate modulation confers K<sup>+</sup>  coupling in glutamate transporters*](https://doi.org/10.15252/embj.2019101468) by Kortzak et al.
 
 ### analysis scripts
   * [transition_path_eaat.py](../master/transition_path_eaat.py) reads discretized K<sup>+</sup> occupation state trajectories and calculates highest reactive flux pathways for EAAT1 (used in Fig. 2C). Depends on the [MSMexplorer](https://github.com/msmbuilder/msmexplorer) package. 
